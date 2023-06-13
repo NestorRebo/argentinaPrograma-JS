@@ -1,0 +1,16 @@
+ejercicio 1: 
+a. resta resultado= 8
+b. multiplicacion resultado= 24
+
+ejercicio 2: areaRectangulo
+a.  resultado= 15
+b.  resultado= 66.25
+
+ejercicio 3:  conversionGrados
+a.  resultado= 10
+b.  resultado= 23.88888888888889
+
+ejercicio 4: promedio3
+a.  resultado= 7
+b.  resultado= -4.333333333333333
+c.  resultado= -3.266666666666667
