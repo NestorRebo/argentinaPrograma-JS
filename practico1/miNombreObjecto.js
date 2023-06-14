@@ -14,5 +14,5 @@ miNombreObjecto.js
 
 let persona = {nombre: "Néstor", apellido: "Rebolledo", edad: 38};
 
-console.log("Mi objeto persona es el siguiente: " +JSON.stringify(persona))
+console.log("Mi objeto persona es el siguiente: " + JSON.stringify(persona))
 // me habia equivocado con la concatenacion + en vez de hacerlo con ,
