@@ -18,7 +18,7 @@ tiene 28 días.
 const readlineSync=require('readline-sync');
 const numeroElegido = readlineSync.question('ingrese un numero ' );
 
-switch (numeroElegido){
+/*switch (numeroElegido){
     case '1':
         mes = 'Enero';
         numero = 31;
@@ -86,6 +86,84 @@ switch (numeroElegido){
     break;
 
     case '12':
+        mes = 'Diciembre';
+        numero = 31;
+        console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
+    break;
+    
+    default:
+    console.log("no es un numero valido");
+}
+*/
+
+switch (parseInt(numeroElegido)){
+    case 1:
+        mes = 'Enero';
+        numero = 31;
+        console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
+    break;
+    
+    case 2:
+        mes = 'Febrero';
+        numero = 28;
+        console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
+    break;
+
+    case 3:
+        mes = 'Marzo';
+        numero = 31;
+        console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
+    break;
+    
+    case 4:
+        mes = 'Abril';
+        numero = 30;
+        console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
+    break;
+
+    case 5:
+        mes = 'Mayo';
+        numero = 31;
+        console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
+    break;
+
+    case 6:
+        mes = 'Junio';
+        numero = 30;
+        console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
+    break;
+
+    case 7:
+        mes = 'Julio';
+        numero = 31;
+        console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
+    break;
+
+    case 8:
+        mes = 'Agosto';
+        numero = 31;
+        console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
+    break;
+
+    case 9:
+        mes = 'Septiembre';
+        numero = 30
+        console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
+    break;
+
+    case 10:
+        mes = 'Octubre';
+        numero = 31;
+        console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
+    break;
+
+    case 11:
+        mes = 'Noviembre';
+        numero = 30;
+        console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
+    break;
+
+    case 12:
         mes = 'Diciembre';
         numero = 31;
         console.log('La cantidad de dias del mes %s de dias es %i', mes,numero);
